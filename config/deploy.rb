@@ -2,7 +2,7 @@
 
 set :rails_env, Rubber.env
 
-set :assets_role, [:app]
+set :assets_role, [:unicorn]
 
 on :load do
   set :application, rubber_env.app_name

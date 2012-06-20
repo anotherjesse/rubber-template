@@ -16,11 +16,11 @@ Started with ``minimal_mysql``
  * remove ec2-ami-tools since it pulls in ruby 1.8 - this probably
    breaks bundling.
  * removed mongrel + haproxy in favor of nginx + unicorn
+ * unicorn plus asset pipeline works
 
 Issues:
 
- * attempting to get asset pipeline to work (currently you have to manually
-   precompile the assets by ssh-ing in
+ * assets should be served by nginx not unicorn
  * ``rake1.9.1`` exists but ``rake`` doesn't exist
  * only tested using ``rubber:create_staging`` - haven't created individual
    roles yet
