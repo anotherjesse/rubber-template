@@ -21,5 +21,6 @@ Issues:
 
  * attempting to get asset pipeline to work (currently you have to manually
    precompile the assets by ssh-ing in
+ * ``rake1.9.1`` exists but ``rake`` doesn't exist
  * only tested using ``rubber:create_staging`` - haven't created individual
    roles yet
